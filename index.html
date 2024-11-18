@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conscientização sobre o Câncer</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="dna.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+        .cancer-card:hover {
+            animation: pulse 1.5s infinite;
+        }
+        body {
+            background: linear-gradient(135deg, #f5f7fa 0%, #e94c4c 100%);
+            font-family: 'Oswald', sans-serif;
+        }
+    </style>
+</head>
+<body class="font-sans text-gray-800">
+    <header class="bg-red-600 text-white py-6 text-center">
+        <h1 class="text-4xl font-bold">🎗️ Conscientização sobre o Câncer</h1>
+        <p class="mt-2 text-xl">Conhecimento, Prevenção e Esperança</p>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+        <section class="mb-12">
+            <h2 class="text-3xl font-semibold text-center mb-6">O que é Câncer?</h2>
+            <div class="bg-white shadow-lg rounded-lg p-6">
+                <p class="text-lg leading-relaxed">
+                    O câncer é uma doença complexa caracterizada pelo crescimento descontrolado de células anormais que podem invadir tecidos e órgãos adjacentes. Essas células podem se espalhar para outras partes do corpo através do sangue e do sistema linfático, um processo chamado metástase. A formação ocorre devido a mutações genéticas que causam o crescimento e divisão celular desregulados.
+                </p>
+            </div>
+        </section>
+
+        <section class="mb-12">
+            <h2 class="text-3xl font-semibold text-center mb-6">Tipos de Câncer</h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <details class="bg-white shadow-lg rounded-lg p-4 cancer-card">
+                    <summary class="text-xl font-semibold cursor-pointer">Câncer de Mama</summary>
+                    <img src="mama.jpeg" alt="Câncer de Mama" class="mt-4 rounded-lg">
+                    <div class="mt-4">
+                        <p>Desenvolve-se nos tecidos mamários, mais comum em mulheres.</p>
+                        <p class="font-bold mt-2">Principais informações:</p>
+                        <ul class="list-disc pl-5">
+                            <li>2º tipo mais comum no mundo</li>
+                            <li>80% dos casos em mulheres acima de 50 anos</li>
+                            <li>Detecção precoce aumenta chances de cura em 95%</li>
+                        </ul>
+                    </div>
+                </details>
+
+                <details class="bg-white shadow-lg rounded-lg p-4 cancer-card">
+                    <summary class="text-xl font-semibold cursor-pointer">Câncer de Pulmão</summary>
+                    <img src="pulmão.png" alt="Câncer de Pulmão" class="mt-4 rounded-lg">
+                    <div class="mt-4">
+                        <p>Afeta os pulmões, frequentemente associado ao tabagismo.</p>
+                        <p class="font-bold mt-2">Principais informações:</p>
+                        <ul class="list-disc pl-5">
+                            <li>Principal causa de morte por câncer</li>
+                            <li>85% dos casos relacionados ao tabaco</li>
+                            <li>Maior incidência em homens entre 55-75 anos</li>
+                        </ul>
+                    </div>
+                </details>
+
+                <details class="bg-white shadow-lg rounded-lg p-4 cancer-card">
+                    <summary class="text-xl font-semibold cursor-pointer">Câncer Colorretal</summary>
+                    <img src="colorretal.jfif" alt="Câncer Colorretal" class="mt-4 rounded-lg">
+                    <div class="mt-4">
+                        <p>Surge no intestino grosso ou reto, pode ser prevenido com exames preventivos.</p>
+                        <p class="font-bold mt-2">Principais informações:</p>
+                        <ul class="list-disc pl-5">
+                            <li>3º tipo mais comum no mundo</li>
+                            <li>60% dos casos podem ser evitados com dieta e exercícios</li>
+                            <li>Maior risco após os 50 anos</li>
+                        </ul>
+                    </div>
+                </details>
+
+                <details class="bg-white shadow-lg rounded-lg p-4 cancer-card">
+                    <summary class="text-xl font-semibold cursor-pointer">Câncer de Próstata</summary>
+                    <img src="oloko.jpg" alt="Câncer de Próstata" class="mt-4 rounded-lg">
+                    <div class="mt-4">
+                        <p>Acomete a glândula prostática, comum em homens idosos.</p>
+                        <p class="font-bold mt-2">Principais informações:</p>
+                        <ul class="list-disc pl-5">
+                            <li>2º câncer mais comum em homens</li>
+                            <li>95% de sobrevivência com diagnóstico precoce</li>
+                            <li>Risco aumenta após os 45 anos</li>
+                        </ul>
+                    </div>
+                </details>
+
+                <details class="bg-white shadow-lg rounded-lg p-4 cancer-card">
+                    <summary class="text-xl font-semibold cursor-pointer">Câncer de Pele</summary>
+                    <img src="pele.webp" alt="Câncer de Pele" class="mt-4 rounded-lg">
+                    <div class="mt-4">
+                        <p>Alterações nas células da pele, frequentemente causado por exposição solar.</p>
+                        <p class="font-bold mt-2">Principais informações:</p>
+                        <ul class="list-disc pl-5">
+                            <li>Tipo mais comum de câncer</li>
+                            <li>90% dos casos são curáveis</li>
+                            <li>Maior incidência em pessoas de pele clara</li>
+                        </ul>
+                    </div>
+                </details>
+
+                <details class="bg-white shadow-lg rounded-lg p-4 cancer-card">
+                    <summary class="text-xl font-semibold cursor-pointer">Leucemia</summary>
+                    <img src="leucemia.jfif" alt="Leucemia" class="mt-4 rounded-lg">
+                    <div class="mt-4">
+                        <p>Câncer que afeta o sistema de produção de células sanguíneas.</p>
+                        <p class="font-bold mt-2">Principais informações:</p>
+                        <ul class="list-disc pl-5">
+                            <li>Mais comum em crianças e idosos</li>
+                            <li>Pode ser aguda ou crônica</li>
+                            <li>Tratamentos modernos aumentam chances de cura</li>
+                        </ul>
+                    </div>
+                </details>
+            </div>
+        </section>
+
+        <section class="mb-12">
+            <h2 class="text-3xl font-semibold text-center mb-6">Dados Importantes</h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="bg-white shadow-lg rounded-lg p-6 text-center">
+                    <h3 class="text-2xl font-bold text-red-600">19.3 Milhões</h3>
+                    <p>Novos casos de câncer estimados em 2020</p>
+                </div>
+                <div class="bg-white shadow-lg rounded-lg p-6 text-center">
+                    <h3 class="text-2xl font-bold text-red-600">50%</h3>
+                    <p>Cânceres potencialmente evitáveis com mudanças no estilo de vida</p>
+                </div>
+                <div class="bg-white shadow-lg rounded-lg p-6 text-center">
+                    <h3 class="text-2xl font-bold text-red-600">66%</h3>
+                    <p>Aumento na sobrevivência com diagnóstico precoce</p>
+                </div>
+                <div class="bg-white shadow-lg rounded-lg p-6 text-center">
+                    <h3 class="text-2xl font-bold text-red-600">10 Milhões</h3>
+                    <p>Mortes por câncer anualmente no mundo</p>
+                </div>
+                <div class="bg-white shadow-lg rounded-lg p-6 text-center">
+                    <h3 class="text-2xl font-bold text-red-600">70%</h3>
+                    <p>Dos cânceres ocorrem em países de média e baixa renda</p>
+                </div>
+                <div class="bg-white shadow-lg rounded-lg p-6 text-center">
+                    <h3 class="text-2xl font-bold text-red-600">40%</h3>
+                    <p>Dos cânceres podem ser prevenidos com mudanças no estilo de vida</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-12">
+            <h2 class="text-3xl font-semibold text-center mb-6">Vídeo Informativo</h2>
+            <div class="w-full max-w-4xl mx-auto">
+                <div class="aspect-w-16 aspect-h-9">
+                    <iframe 
+                        src="https://www.youtube.com/embed/FqbN2nUpRR0" 
+                        title="Informações sobre Câncer" 
+                        class="w-full h-full rounded-lg shadow-lg">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-red-600 text-white py-6 text-center">
+        <p>Juntos contra o Câncer 🎗️ - Informação é Prevenção</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            anime({
+                targets: '.cancer-card',
+                translateY: [-10, 0],
+                opacity: [0, 1],
+                delay: anime.stagger(100),
+                easing: 'easeOutQuad'
+            });
+        });
+    </script>
+</body>
+</html>
